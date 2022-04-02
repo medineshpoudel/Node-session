@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Prompt:ital,wght@0,100;1,200;1,300&display=swap');
+
+body{
+    background-color: blue;
+    font-family: 'Prompt', sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+form{
+    margin: 5% auto;
+    width: 540px;
+    /* background-color: blue; */
+}
+input{
+    padding: 10px;
+    margin: 20px;
+    display: block;
+    font-size: 12px;
+    outline: none;
+    border-radius: 15px;
+    border: 3px solid green;
+}
+button{
+    margin-left: 25px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: 0px;
+}
+button:hover{
+    background-color: yellowgreen;
+}
